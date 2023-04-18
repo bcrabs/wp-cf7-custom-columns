@@ -1,0 +1,27 @@
+.cf3-1, .cf3-2, .cf3-3 {
+    width: 32%;
+    float: left;
+}
+
+.cf3-1, .cf3-2 {
+    padding: 0 2% 0 0;
+}
+
+.cf2-1, .cf2-2 {
+    width: 49%;
+    float: left;
+}
+
+.cf2-1 {
+    padding: 0 2% 0 0;
+}
+
+.cf-clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 1100px) {
+  .cf2-1, .cf2-2, .cf3-1, .cf3-2, .cf3-3 {
+      width: 100%;
+  }
+}
